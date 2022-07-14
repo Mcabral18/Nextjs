@@ -9,14 +9,14 @@ function Footer() {
                     <div className="left-column py-10 px-3 md:px-0" style={{ backgroundColor: "#363636" }}>
                         <div className="text-column text-md-center text-left">
                             <div className="title">
-                                <h5 className="text-white md:text-center text-light mb-4 text-2xl">- Contacto -</h5>
+                                <h5 className="text-white md:text-center text-bold mb-4 text-2xl">- Contacto -</h5>
                             </div>
                         </div>
                         <div className="text">
-                            <h4 className="text-white md:text-center text-md-center text-4xl mb-1">Solicite</h4>
+                            <h4 className="text-white text-light md:text-center text-md-center text-5xl mb-1">Solicite</h4>
                         </div>
                         <div className="text">
-                            <h4 className="text-white md:text-center text-md-center text-light text-2xl">mais informações</h4>
+                            <h4 className="text-white md:text-center text-md-center text-light text-5xl">mais informações</h4>
                         </div>
                     </div>
                     <div className="right-column py-5 md:py-10 px-3 md:px-0">
@@ -28,7 +28,7 @@ function Footer() {
                                 <span className="icon mr-3">
                                     <Image src="/img/svg/phone.svg" alt="Email - CBRE" width={25} height={25} />
                                 </span>
-                                <a href="tel:+351213114400">+351 21 311 44 00</a>
+                                <a href="tel:+351213114400">+351213114400</a>
                             </div>
                             <div className="emails flex flex-col md:flex-row ">
                                 <div className="email inline-flex mt-3 pr-3">

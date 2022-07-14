@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 /* fonts */
 
 @font-face {
@@ -15,17 +17,18 @@
   src: url('../fonts/Futura-Medium.ttf');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Futura-Bold';
   src: url('../fonts/Futura-Bold.ttf');
-}
+} */
 
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Futura-Light, Helvetica Neue, sans-serif;
+  font-family: Cormorant Garamond;
+  font-weight: 300;
   scroll-behavior: smooth;
 }
 
@@ -44,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Futura-Bold, Helvetica Neue, sans-serif;
+  font-family: Cormorant Garamond, Helvetica Neue, sans-serif;
 }
 
 p {
@@ -58,11 +61,13 @@ p {
 }
 
 .text-light {
-  font-family: Futura-Light;
+  font-family: Cormorant Garamond;
+  font-weight: 300;
 }
 
 .text-bold {
-  font-family: Futura-Bold;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
 }
 
 
@@ -89,5 +94,31 @@ p {
 }
 
 .section3 .wrapper-content .wrapper-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #006A4D;
+}
+
+
+.section4 .wrapper-slider .swiper-button-next {
+  color: #fff;
+}
+
+.section4 .wrapper-slider .swiper-button-next:after {
+  font-size: 20px;
+}
+
+.section4 .wrapper-slider .swiper-button-prev {
+  color: #fff;
+}
+
+.section4 .wrapper-slider .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.section4 .wrapper-slider .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+}
+
+.section4 .wrapper-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #006A4D;
 }

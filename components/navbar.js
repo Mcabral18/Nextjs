@@ -15,7 +15,7 @@ export default function Navbar({ fixed }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="CBRE" />
         <meta property="og:description" content="Landing page info" />
-        <meta property="og:image" content="https://album-familia.alamedashopping.pt/wp-content/uploads/2022/05/Logo.png" />
+        <meta property="og:image" content="/public/share.jpg" />
         <meta property="og:url" content="PERMALINK" />
         <meta property="og:site_name" content="SITE NAME" />
       </Head>
@@ -50,7 +50,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase text-black"
                   href="#section1"
                 >
-                  Edifício
+                  EDIFÍCIO
                 </a>
               </li>
               <li className="nav-item">
@@ -58,7 +58,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase text-black"
                   href="#section3"
                 >
-                  Áreas
+                  QUADRO DE ÁREAS
                 </a>
               </li>
               <li className="nav-item">
@@ -66,7 +66,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase text-black"
                   href="#section4"
                 >
-                  Características
+                  CARACTERÍSTICAS
                 </a>
               </li>
               <li className="nav-item">
@@ -74,7 +74,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase text-black"
                   href="#section5"
                 >
-                  Localização
+                  LOCALIZAÇÃO E ENVOLVENTE
                 </a>
               </li>
               <li className="nav-item">
@@ -82,7 +82,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase text-black"
                   href="#footer"
                 >
-                  Contactos
+                  CONTACTOS
                 </a>
               </li>
             </ul>
